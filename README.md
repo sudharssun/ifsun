@@ -2,7 +2,7 @@
 **ifsun** is a nice little linux command line tool for people like me who are obsessed over checking sunrise/sunset time for the day. 
 
 <p align="center">
-  <img src="https://github.com/sudharssun/ifsun/blob/master/sunset-2.jpg" width="100" height="100">
+  <img src="https://github.com/sudharssun/ifsun/blob/master/icons/sunset-2.jpg" width="100" height="100">
 </p>
 
 #### Background
