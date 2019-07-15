@@ -6,7 +6,7 @@
 </p>
 
 #### Background
-If you had lived in Seattle, USA you would know why this tool would be appreciated: In the months November to January the sun sets before 5.00PM and Seattlites typically are eagerly waiting for that day to arrive when its 5:01PM and sun has still not set. Trust me, it is WAY depressing if it is dark both when you get to work and when you get home.
+If you had lived in Seattle, USA you would know why this tool would be appreciated: In the months November to January the sun sets before 5.00PM and Seattlites typically are eagerly waiting for that day to arrive when its 5:01PM and sun has still not set. Trust me, it is INSANELY depressing if it is dark both when you get to work and when you get home.
 
 #### Build and Execution [Work in progress]
 <code>go build src/fetch/fetch.go</code>
