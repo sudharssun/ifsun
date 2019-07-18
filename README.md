@@ -21,7 +21,7 @@ Tomorrow: 21:03
 Day after: 21:02
 ```
 
-You can provide a city or country name or an address!
+You can provide a city or country name or an address! Note: If the address contains spaces, pass it in double quotes.
 
 <code>./fetch Dubai</code>
 
@@ -31,9 +31,9 @@ Tomorrow: 19:10
 Day after: 19:10
 ```
 
-You can provide more details about a city like its state or country to get more accurate results
+You can provide more details about a city like its state or country to get more accurate results. 
 
-<code>./fetch Redmond, OR</code>
+<code>./fetch Redmond,OR</code>
 
 ```
 Today: 20:43
