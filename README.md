@@ -11,14 +11,34 @@ If you had lived in Seattle, USA you would know why this tool would be appreciat
 #### Build and Execution [Work in progress]
 <code>go build src/fetch/fetch.go</code>
 
+When executed without arguments, it picks the current location
+
 <code>./fetch</code>
 
-Output:
 ```
 Today: 21:04
 Tomorrow: 21:03
 Day after: 21:02
-(Credit: https://sunrise-sunset.org/api)
+```
+
+You can provide a city or country name or an address!
+
+<code>./fetch Dubai</code>
+
+```
+Today: 19:10
+Tomorrow: 19:10
+Day after: 19:10
+```
+
+You can provide more details about a city like its state or country to get more accurate results
+
+<code>./fetch Redmond, OR</code>
+
+```
+Today: 20:43
+Tomorrow: 20:42
+Day after: 20:42
 ```
 
 Million Thanks to [arradon](https://github.com/araddon/dateparse) for the date parse go-lang library and sunrise-sunset.org for their REST API
