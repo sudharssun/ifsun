@@ -10,7 +10,7 @@ If you had lived in Seattle, USA you would know why this tool would be appreciat
 
 #### Build and Execution
 
-##### [Optional] Preparation
+##### Preparation (optional)
 Note: This step is only needed if you want to get sunset times of cities other than your current location.
 
 **ifsun** uses [opencagedata API](https://opencagedata.com/api) to get timezone and geographical coordinates of places. In order to use their API, you need to register with a free key [here](https://opencagedata.com/users/sign_up). Once you get your key in the email, do the following step to add this to the environment variable
@@ -23,7 +23,7 @@ cd src/ifsun
 make prod
 ```
 
-##### [Optional] Add to your path
+##### Add to your path (optional)
 ```
 cp src/ifsun/build/ifsun /usr/local/bin
 (you may have to execute this as sudo)
