@@ -17,7 +17,7 @@ tar -xvzf release-0.1-beta.tar.gz -C <your directory name>
 cd <directory name>
 cp ifsun /usr/local/bin
 ```
-Check the [Running the executable](#Running-the-executable) section below for instrucitons on how to run it.
+Check the optional [preparation](#Preparation) step and [Running the executable](#Running-the-executable) section below for instrucitons on how to run it.
 
 #### Build and Execution
 
