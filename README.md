@@ -8,6 +8,17 @@
 #### Background
 If you had lived in Seattle, USA you would know why this tool would be appreciated: In the months November to January the sun sets before 5.00PM and Seattlites typically are eagerly waiting for that day to arrive when its 5:01PM and sun has still not set. Trust me, it is INSANELY depressing if it is dark both when you get to work and when you get home.
 
+#### Installing the release binary
+Download the v0.1 beta release from [here](https://github.com/sudharssun/ifsun/releases/download/v0.1-beta/release-0.1-beta.tar.gz)
+
+Unzip it in a directory, copy it to a directory in your PATH variable
+```
+tar -xvzf release-0.1-beta.tar.gz -C <your directory name>
+cd <directory name>
+cp ifsun /usr/local/bin
+```
+Check the [Running the executable](Running-the-executable) section for instrucitons on how to run it.
+
 #### Build and Execution
 
 ##### Preparation (optional)
