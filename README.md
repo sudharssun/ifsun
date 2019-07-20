@@ -1,5 +1,5 @@
 # ifsun
-**ifsun** is a nice little linux command line tool for people like me who are obsessed over checking sunrise/sunset time for the day. This tool is written in go-lang.
+**ifsun** is a nice little linux command line tool for people like me who are obsessed over checking sunrise/sunset time for the day. This tool is written in go-lang. Contributions welcome!
 
 <p align="center">
   <img src="https://github.com/sudharssun/ifsun/blob/master/icons/sunset-2.jpg" width="100" height="100">
