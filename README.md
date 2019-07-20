@@ -17,7 +17,7 @@ tar -xvzf release-0.1-beta.tar.gz -C <your directory name>
 cd <directory name>
 cp ifsun /usr/local/bin
 ```
-Check the [Running the executable](Running-the-executable) section for instrucitons on how to run it.
+Check the [Running the executable](#Running-the-executable) section below for instrucitons on how to run it.
 
 #### Build and Execution
 
@@ -51,7 +51,7 @@ Tomorrow: 21:03
 Day after: 21:02
 ```
 
-You can provide a city or country name or an address! Note: If the address contains spaces, pass it in double quotes.
+You can provide a city or country name or even an address! Note: If the address contains spaces, pass it in double quotes.
 
 <code>ifsun Dubai</code>
 
