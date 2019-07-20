@@ -28,7 +28,7 @@ type IpParameters struct {
 }
 
 func DoQuery(date string, latitude string, longitude string) (IfSunResponse, error) {
-	SunResponse := IfSunResponse{}
+    SunResponse := IfSunResponse{}
     response, err := http.Get(SUNSETAPI_BASE + LAT_KEYWORD + latitude + LONG_KEYWORD + longitude + DATE_KEYWORD + date)
     if err != nil {        
         return SunResponse, errors.New("[Get Sunset] HTTP request failed: " + err.Error())

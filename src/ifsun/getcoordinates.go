@@ -1,13 +1,13 @@
 package main
 
 import (
-	"net/http"
-	"os"
-	"io/ioutil"
-	"net/url"
-	"fmt"
-	"errors"
-	"encoding/json"
+    "net/http"
+    "os"
+    "io/ioutil"
+    "net/url"
+    "fmt"
+    "errors"
+    "encoding/json"
 )
 
 type GCResponse struct {
@@ -36,9 +36,9 @@ func GetCoordinates(args []string) (string, string, string, error) {
     GcResponse := GCResponse{}
     
     u, _ := url.Parse(OPENCAGEAPI_BASE)
-	u.Path += "json"
+    u.Path += "json"
 
-	q := u.Query()
+    q := u.Query()
     q.Set("q", args[0])
     q.Set("key", os.Getenv(API_KEY))
     
@@ -59,7 +59,7 @@ func GetCoordinates(args []string) (string, string, string, error) {
     if len(GcResponse.OuterResponse) < 1 {
         return EMPTY_STRING, EMPTY_STRING, EMPTY_STRING, errors.New("[Get coordinates] Place Not found. Misspelled? Please Try again")
     }
-	
-	// The API can respond with multiple matches with the top most one as the most relevant to the search query.
+    
+    // The API can respond with multiple matches with the top most one as the most relevant to the search query.
     return fmt.Sprintf("%f", GcResponse.OuterResponse[0].Geometry.Latitude), fmt.Sprintf("%f", GcResponse.OuterResponse[0].Geometry.Longitude), string(GcResponse.OuterResponse[0].Results.TimeZone.Name), nil
 }
