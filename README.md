@@ -29,6 +29,7 @@ Note: This step is only needed if you want to get sunset times of cities other t
 <code> export APIKEY=[YOUR KEY]</code>
 
 ##### Building the code
+Install go lang compiler from [here](https://golang.org/doc/install). This will soon be integrated in the makefile so that it pulls it automatically when you build the project.
 ```
 cd src/ifsun
 make prod
